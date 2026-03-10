@@ -121,6 +121,7 @@ For full reproducibility of the comparative benchmarks (e.g., with **G-Mixup**, 
 2. All dependencies required by each method are installed (see their respective `requirements.txt` files).  
 3. You execute the experiments in a compatible environment
 
+
 ## Citation
 
 If you use this code or the JGS estimator in your work, please cite:
@@ -132,3 +133,9 @@ If you use this code or the JGS estimator in your work, please cite:
   booktitle={Proceedings of the International Conference on Artificial Intelligence and Statistics (AISTATS)},
   year={2026}
 }
+
+
+
+## License
+
+This project is released under the MIT License. See the `LICENSE` file for details.
