@@ -1,0 +1,161 @@
+2025-10-10 - INFO: - parser.prog: jgs_gmixup.py
+2025-10-10 - INFO: - args:Namespace(data_path='.', dataset='IMDB-BINARY', model='GIN', epoch=100, batch_size=128, lr=0.01, num_hidden=64, gmixup='True', lam_range='[0.005, 0.01]', aug_ratio=0.2, aug_num=10, gnn='gin', seed=51314, log_screen='True', ge='JGS')
+2025-10-10 - INFO: - runing device: cpu
+2025-10-10 - DEBUG: - open file: /home/rbsogan/Documents/THESE/AIstat/JGS-graphon/experiments/IMDB-BINARY/IMDB-BINARY/processed/data.pt
+2025-10-10 - INFO: - avg num nodes of training graphs: 19.644285714285715
+2025-10-10 - INFO: - avg num edges of training graphs: 98.78285714285714
+2025-10-10 - INFO: - avg density of training graphs: 0.25598180625108774
+2025-10-10 - INFO: - median num nodes of training graphs: 16.0
+2025-10-10 - INFO: - median num edges of training graphs: 132.0
+2025-10-10 - INFO: - median density of training graphs: 0.515625
+2025-10-10 - INFO: - label: [1. 0.], num_graphs:355
+2025-10-10 - INFO: - aligned graph (16, 16)
+2025-10-10 - INFO: - ge: JGS
+2025-10-10 - INFO: - label: [0. 1.], num_graphs:345
+2025-10-10 - INFO: - aligned graph (16, 16)
+2025-10-10 - INFO: - ge: JGS
+2025-10-10 - INFO: - graphon info: label:[1. 0.]; mean: 0.5290559298852068, shape, (5, 5)
+2025-10-10 - INFO: - graphon info: label:[0. 1.]; mean: 0.4568190402633161, shape, (5, 5)
+2025-10-10 - INFO: - lam: 0.008529958562940018
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.9915, 0.0085])
+2025-10-10 - INFO: - lam: 0.00912413428276812
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.0091, 0.9909])
+2025-10-10 - INFO: - lam: 0.00730230107241913
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.0073, 0.9927])
+2025-10-10 - INFO: - lam: 0.00598762972052774
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.0060, 0.9940])
+2025-10-10 - INFO: - lam: 0.005480307228635878
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.9945, 0.0055])
+2025-10-10 - INFO: - lam: 0.00980288679497137
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.0098, 0.9902])
+2025-10-10 - INFO: - lam: 0.009813756229999668
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.9902, 0.0098])
+2025-10-10 - INFO: - lam: 0.008082402776318307
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.0081, 0.9919])
+2025-10-10 - INFO: - lam: 0.009442971804534673
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.0094, 0.9906])
+2025-10-10 - INFO: - lam: 0.00922336582427936
+2025-10-10 - INFO: - num_sample: 14
+2025-10-10 - INFO: - label: tensor([0.9908, 0.0092])
+2025-10-10 - INFO: - avg num nodes of new graphs: 4.728571428571429
+2025-10-10 - INFO: - avg num edges of new graphs: 5.946428571428571
+2025-10-10 - INFO: - avg density of new graphs: 0.26594773687717344
+2025-10-10 - INFO: - median num nodes of new graphs: 5.0
+2025-10-10 - INFO: - median num edges of new graphs: 12.0
+2025-10-10 - INFO: - median density of new graphs: 0.48
+2025-10-10 - INFO: - real aug ratio: 0.2
+2025-10-10 - INFO: - num_features: torch.Size([5, 136])
+2025-10-10 - INFO: - num_classes: torch.Size([2])
+2025-10-10 - INFO: - train_dataset size: 840
+2025-10-10 - INFO: - val_dataset size: 100
+2025-10-10 - INFO: - test_dataset size: 200
+/home/rbsogan/SIGL/venv/lib/python3.10/site-packages/torch_geometric/deprecation.py:26: UserWarning: 'data.DataLoader' is deprecated, use 'loader.DataLoader' instead
+  warnings.warn(out)
+2025-10-10 - INFO: - Epoch: 001, Train Loss: 0.626253, Val Loss: 0.901192, Test Loss: 0.868232,  Val Acc:  0.480000, Test Acc:  0.555000
+2025-10-10 - INFO: - Epoch: 002, Train Loss: 0.592374, Val Loss: 1.165493, Test Loss: 1.527916,  Val Acc:  0.480000, Test Acc:  0.510000
+2025-10-10 - INFO: - Epoch: 003, Train Loss: 0.590288, Val Loss: 0.557703, Test Loss: 0.577821,  Val Acc:  0.700000, Test Acc:  0.650000
+2025-10-10 - INFO: - Epoch: 004, Train Loss: 0.567586, Val Loss: 0.669814, Test Loss: 0.727657,  Val Acc:  0.680000, Test Acc:  0.640000
+2025-10-10 - INFO: - Epoch: 005, Train Loss: 0.540250, Val Loss: 0.515247, Test Loss: 0.606044,  Val Acc:  0.760000, Test Acc:  0.645000
+2025-10-10 - INFO: - Epoch: 006, Train Loss: 0.531164, Val Loss: 0.516773, Test Loss: 0.565220,  Val Acc:  0.720000, Test Acc:  0.675000
+2025-10-10 - INFO: - Epoch: 007, Train Loss: 0.518436, Val Loss: 0.522650, Test Loss: 0.601507,  Val Acc:  0.740000, Test Acc:  0.705000
+2025-10-10 - INFO: - Epoch: 008, Train Loss: 0.567139, Val Loss: 0.479914, Test Loss: 0.513195,  Val Acc:  0.790000, Test Acc:  0.730000
+2025-10-10 - INFO: - Epoch: 009, Train Loss: 0.552573, Val Loss: 0.556261, Test Loss: 0.600927,  Val Acc:  0.710000, Test Acc:  0.660000
+2025-10-10 - INFO: - Epoch: 010, Train Loss: 0.525728, Val Loss: 0.473982, Test Loss: 0.533696,  Val Acc:  0.800000, Test Acc:  0.725000
+2025-10-10 - INFO: - Epoch: 011, Train Loss: 0.500908, Val Loss: 0.452849, Test Loss: 0.570805,  Val Acc:  0.780000, Test Acc:  0.700000
+2025-10-10 - INFO: - Epoch: 012, Train Loss: 0.493011, Val Loss: 0.461927, Test Loss: 0.581075,  Val Acc:  0.750000, Test Acc:  0.660000
+2025-10-10 - INFO: - Epoch: 013, Train Loss: 0.485720, Val Loss: 0.469100, Test Loss: 0.585041,  Val Acc:  0.740000, Test Acc:  0.640000
+2025-10-10 - INFO: - Epoch: 014, Train Loss: 0.494557, Val Loss: 0.477121, Test Loss: 0.582874,  Val Acc:  0.800000, Test Acc:  0.725000
+2025-10-10 - INFO: - Epoch: 015, Train Loss: 0.461645, Val Loss: 0.448502, Test Loss: 0.579231,  Val Acc:  0.790000, Test Acc:  0.745000
+2025-10-10 - INFO: - Epoch: 016, Train Loss: 0.457287, Val Loss: 0.449332, Test Loss: 0.638299,  Val Acc:  0.790000, Test Acc:  0.735000
+2025-10-10 - INFO: - Epoch: 017, Train Loss: 0.460282, Val Loss: 0.507718, Test Loss: 0.616778,  Val Acc:  0.750000, Test Acc:  0.710000
+2025-10-10 - INFO: - Epoch: 018, Train Loss: 0.488004, Val Loss: 0.466474, Test Loss: 0.632072,  Val Acc:  0.760000, Test Acc:  0.710000
+2025-10-10 - INFO: - Epoch: 019, Train Loss: 0.472055, Val Loss: 0.467485, Test Loss: 0.606557,  Val Acc:  0.770000, Test Acc:  0.670000
+2025-10-10 - INFO: - Epoch: 020, Train Loss: 0.484471, Val Loss: 0.441113, Test Loss: 0.618239,  Val Acc:  0.760000, Test Acc:  0.645000
+2025-10-10 - INFO: - Epoch: 021, Train Loss: 0.474123, Val Loss: 0.470703, Test Loss: 0.623521,  Val Acc:  0.740000, Test Acc:  0.695000
+2025-10-10 - INFO: - Epoch: 022, Train Loss: 0.473118, Val Loss: 0.499384, Test Loss: 0.554489,  Val Acc:  0.730000, Test Acc:  0.705000
+2025-10-10 - INFO: - Epoch: 023, Train Loss: 0.468296, Val Loss: 0.488881, Test Loss: 0.581746,  Val Acc:  0.710000, Test Acc:  0.650000
+2025-10-10 - INFO: - Epoch: 024, Train Loss: 0.451250, Val Loss: 0.488097, Test Loss: 0.604775,  Val Acc:  0.740000, Test Acc:  0.715000
+2025-10-10 - INFO: - Epoch: 025, Train Loss: 0.454283, Val Loss: 0.468643, Test Loss: 0.669487,  Val Acc:  0.770000, Test Acc:  0.685000
+2025-10-10 - INFO: - Epoch: 026, Train Loss: 0.447795, Val Loss: 0.463863, Test Loss: 0.665252,  Val Acc:  0.740000, Test Acc:  0.685000
+2025-10-10 - INFO: - Epoch: 027, Train Loss: 0.462679, Val Loss: 0.430143, Test Loss: 0.575063,  Val Acc:  0.820000, Test Acc:  0.735000
+2025-10-10 - INFO: - Epoch: 028, Train Loss: 0.453444, Val Loss: 0.446669, Test Loss: 0.505460,  Val Acc:  0.780000, Test Acc:  0.765000
+2025-10-10 - INFO: - Epoch: 029, Train Loss: 0.446866, Val Loss: 0.473401, Test Loss: 0.610132,  Val Acc:  0.720000, Test Acc:  0.665000
+2025-10-10 - INFO: - Epoch: 030, Train Loss: 0.451642, Val Loss: 0.493206, Test Loss: 0.552016,  Val Acc:  0.700000, Test Acc:  0.625000
+2025-10-10 - INFO: - Epoch: 031, Train Loss: 0.442155, Val Loss: 0.453754, Test Loss: 0.552221,  Val Acc:  0.800000, Test Acc:  0.710000
+2025-10-10 - INFO: - Epoch: 032, Train Loss: 0.452070, Val Loss: 0.574819, Test Loss: 0.633262,  Val Acc:  0.800000, Test Acc:  0.720000
+2025-10-10 - INFO: - Epoch: 033, Train Loss: 0.447917, Val Loss: 0.441493, Test Loss: 0.615849,  Val Acc:  0.790000, Test Acc:  0.705000
+2025-10-10 - INFO: - Epoch: 034, Train Loss: 0.436604, Val Loss: 0.464921, Test Loss: 0.672738,  Val Acc:  0.780000, Test Acc:  0.695000
+2025-10-10 - INFO: - Epoch: 035, Train Loss: 0.461126, Val Loss: 0.449975, Test Loss: 0.667422,  Val Acc:  0.760000, Test Acc:  0.680000
+2025-10-10 - INFO: - Epoch: 036, Train Loss: 0.443058, Val Loss: 0.548130, Test Loss: 0.701426,  Val Acc:  0.720000, Test Acc:  0.635000
+2025-10-10 - INFO: - Epoch: 037, Train Loss: 0.436743, Val Loss: 0.491703, Test Loss: 0.561537,  Val Acc:  0.710000, Test Acc:  0.680000
+2025-10-10 - INFO: - Epoch: 038, Train Loss: 0.441714, Val Loss: 0.493308, Test Loss: 0.591832,  Val Acc:  0.730000, Test Acc:  0.695000
+2025-10-10 - INFO: - Epoch: 039, Train Loss: 0.440769, Val Loss: 0.436461, Test Loss: 0.610721,  Val Acc:  0.810000, Test Acc:  0.695000
+2025-10-10 - INFO: - Epoch: 040, Train Loss: 0.432073, Val Loss: 0.430585, Test Loss: 0.663924,  Val Acc:  0.720000, Test Acc:  0.655000
+2025-10-10 - INFO: - Epoch: 041, Train Loss: 0.421226, Val Loss: 0.480185, Test Loss: 0.759694,  Val Acc:  0.740000, Test Acc:  0.690000
+2025-10-10 - INFO: - Epoch: 042, Train Loss: 0.434948, Val Loss: 0.458470, Test Loss: 0.562151,  Val Acc:  0.780000, Test Acc:  0.730000
+2025-10-10 - INFO: - Epoch: 043, Train Loss: 0.423731, Val Loss: 0.430468, Test Loss: 0.651479,  Val Acc:  0.730000, Test Acc:  0.685000
+2025-10-10 - INFO: - Epoch: 044, Train Loss: 0.439358, Val Loss: 0.445722, Test Loss: 0.637943,  Val Acc:  0.740000, Test Acc:  0.690000
+2025-10-10 - INFO: - Epoch: 045, Train Loss: 0.415059, Val Loss: 0.555105, Test Loss: 0.693600,  Val Acc:  0.710000, Test Acc:  0.670000
+2025-10-10 - INFO: - Epoch: 046, Train Loss: 0.421411, Val Loss: 0.460276, Test Loss: 0.663128,  Val Acc:  0.770000, Test Acc:  0.695000
+2025-10-10 - INFO: - Epoch: 047, Train Loss: 0.424083, Val Loss: 0.419884, Test Loss: 0.618709,  Val Acc:  0.800000, Test Acc:  0.715000
+2025-10-10 - INFO: - Epoch: 048, Train Loss: 0.459726, Val Loss: 0.416799, Test Loss: 0.598464,  Val Acc:  0.760000, Test Acc:  0.660000
+2025-10-10 - INFO: - Epoch: 049, Train Loss: 0.483630, Val Loss: 0.456047, Test Loss: 0.796514,  Val Acc:  0.730000, Test Acc:  0.680000
+2025-10-10 - INFO: - Epoch: 050, Train Loss: 0.498142, Val Loss: 0.438018, Test Loss: 0.583213,  Val Acc:  0.760000, Test Acc:  0.640000
+2025-10-10 - INFO: - Epoch: 051, Train Loss: 0.497781, Val Loss: 0.561706, Test Loss: 0.557549,  Val Acc:  0.710000, Test Acc:  0.670000
+2025-10-10 - INFO: - Epoch: 052, Train Loss: 0.482096, Val Loss: 0.471578, Test Loss: 0.610286,  Val Acc:  0.760000, Test Acc:  0.625000
+2025-10-10 - INFO: - Epoch: 053, Train Loss: 0.500221, Val Loss: 0.463753, Test Loss: 0.548341,  Val Acc:  0.750000, Test Acc:  0.705000
+2025-10-10 - INFO: - Epoch: 054, Train Loss: 0.487728, Val Loss: 0.471722, Test Loss: 0.584826,  Val Acc:  0.750000, Test Acc:  0.635000
+2025-10-10 - INFO: - Epoch: 055, Train Loss: 0.474722, Val Loss: 0.477636, Test Loss: 0.599760,  Val Acc:  0.760000, Test Acc:  0.670000
+2025-10-10 - INFO: - Epoch: 056, Train Loss: 0.450034, Val Loss: 0.449143, Test Loss: 0.592175,  Val Acc:  0.760000, Test Acc:  0.705000
+2025-10-10 - INFO: - Epoch: 057, Train Loss: 0.446227, Val Loss: 0.413996, Test Loss: 0.598054,  Val Acc:  0.780000, Test Acc:  0.705000
+2025-10-10 - INFO: - Epoch: 058, Train Loss: 0.452466, Val Loss: 0.439706, Test Loss: 0.630180,  Val Acc:  0.750000, Test Acc:  0.690000
+2025-10-10 - INFO: - Epoch: 059, Train Loss: 0.420123, Val Loss: 0.442579, Test Loss: 0.708571,  Val Acc:  0.800000, Test Acc:  0.720000
+2025-10-10 - INFO: - Epoch: 060, Train Loss: 0.444154, Val Loss: 0.484003, Test Loss: 0.647914,  Val Acc:  0.700000, Test Acc:  0.660000
+2025-10-10 - INFO: - Epoch: 061, Train Loss: 0.449935, Val Loss: 0.431191, Test Loss: 0.695546,  Val Acc:  0.780000, Test Acc:  0.690000
+2025-10-10 - INFO: - Epoch: 062, Train Loss: 0.433485, Val Loss: 0.467936, Test Loss: 0.732884,  Val Acc:  0.810000, Test Acc:  0.730000
+2025-10-10 - INFO: - Epoch: 063, Train Loss: 0.434668, Val Loss: 0.468433, Test Loss: 0.777024,  Val Acc:  0.790000, Test Acc:  0.700000
+2025-10-10 - INFO: - Epoch: 064, Train Loss: 0.423849, Val Loss: 0.504879, Test Loss: 0.819067,  Val Acc:  0.730000, Test Acc:  0.620000
+2025-10-10 - INFO: - Epoch: 065, Train Loss: 0.418407, Val Loss: 0.441395, Test Loss: 0.805429,  Val Acc:  0.750000, Test Acc:  0.650000
+2025-10-10 - INFO: - Epoch: 066, Train Loss: 0.431385, Val Loss: 0.424354, Test Loss: 0.886094,  Val Acc:  0.780000, Test Acc:  0.650000
+2025-10-10 - INFO: - Epoch: 067, Train Loss: 0.420962, Val Loss: 0.453892, Test Loss: 0.719001,  Val Acc:  0.760000, Test Acc:  0.680000
+2025-10-10 - INFO: - Epoch: 068, Train Loss: 0.451573, Val Loss: 0.431028, Test Loss: 0.783367,  Val Acc:  0.690000, Test Acc:  0.645000
+2025-10-10 - INFO: - Epoch: 069, Train Loss: 0.438861, Val Loss: 0.412243, Test Loss: 0.767419,  Val Acc:  0.800000, Test Acc:  0.705000
+2025-10-10 - INFO: - Epoch: 070, Train Loss: 0.433277, Val Loss: 0.404952, Test Loss: 0.886570,  Val Acc:  0.830000, Test Acc:  0.710000
+2025-10-10 - INFO: - Epoch: 071, Train Loss: 0.418471, Val Loss: 0.477988, Test Loss: 0.911725,  Val Acc:  0.760000, Test Acc:  0.695000
+2025-10-10 - INFO: - Epoch: 072, Train Loss: 0.414254, Val Loss: 0.398218, Test Loss: 0.958801,  Val Acc:  0.750000, Test Acc:  0.650000
+2025-10-10 - INFO: - Epoch: 073, Train Loss: 0.422398, Val Loss: 0.429828, Test Loss: 0.742620,  Val Acc:  0.740000, Test Acc:  0.680000
+2025-10-10 - INFO: - Epoch: 074, Train Loss: 0.418240, Val Loss: 0.471706, Test Loss: 0.744919,  Val Acc:  0.800000, Test Acc:  0.715000
+2025-10-10 - INFO: - Epoch: 075, Train Loss: 0.434169, Val Loss: 0.400554, Test Loss: 0.599386,  Val Acc:  0.800000, Test Acc:  0.710000
+2025-10-10 - INFO: - Epoch: 076, Train Loss: 0.409275, Val Loss: 0.390906, Test Loss: 0.640071,  Val Acc:  0.830000, Test Acc:  0.715000
+2025-10-10 - INFO: - Epoch: 077, Train Loss: 0.402661, Val Loss: 0.453707, Test Loss: 0.703028,  Val Acc:  0.740000, Test Acc:  0.660000
+2025-10-10 - INFO: - Epoch: 078, Train Loss: 0.388992, Val Loss: 0.443033, Test Loss: 0.851217,  Val Acc:  0.720000, Test Acc:  0.620000
+2025-10-10 - INFO: - Epoch: 079, Train Loss: 0.407905, Val Loss: 0.432208, Test Loss: 0.772120,  Val Acc:  0.770000, Test Acc:  0.680000
+2025-10-10 - INFO: - Epoch: 080, Train Loss: 0.445630, Val Loss: 0.389383, Test Loss: 0.813491,  Val Acc:  0.770000, Test Acc:  0.685000
+2025-10-10 - INFO: - Epoch: 081, Train Loss: 0.397819, Val Loss: 0.478173, Test Loss: 0.758412,  Val Acc:  0.720000, Test Acc:  0.635000
+2025-10-10 - INFO: - Epoch: 082, Train Loss: 0.418759, Val Loss: 0.442956, Test Loss: 0.655303,  Val Acc:  0.760000, Test Acc:  0.660000
+2025-10-10 - INFO: - Epoch: 083, Train Loss: 0.417210, Val Loss: 0.653867, Test Loss: 0.771145,  Val Acc:  0.780000, Test Acc:  0.700000
+2025-10-10 - INFO: - Epoch: 084, Train Loss: 0.446155, Val Loss: 0.478469, Test Loss: 0.746395,  Val Acc:  0.740000, Test Acc:  0.675000
+2025-10-10 - INFO: - Epoch: 085, Train Loss: 0.441889, Val Loss: 0.559965, Test Loss: 0.895436,  Val Acc:  0.750000, Test Acc:  0.685000
+2025-10-10 - INFO: - Epoch: 086, Train Loss: 0.456227, Val Loss: 0.627385, Test Loss: 1.098098,  Val Acc:  0.760000, Test Acc:  0.705000
+2025-10-10 - INFO: - Epoch: 087, Train Loss: 0.448798, Val Loss: 0.490569, Test Loss: 0.706442,  Val Acc:  0.750000, Test Acc:  0.640000
+2025-10-10 - INFO: - Epoch: 088, Train Loss: 0.451024, Val Loss: 0.461898, Test Loss: 0.607513,  Val Acc:  0.730000, Test Acc:  0.635000
+2025-10-10 - INFO: - Epoch: 089, Train Loss: 0.418172, Val Loss: 0.450994, Test Loss: 0.964999,  Val Acc:  0.830000, Test Acc:  0.695000
+2025-10-10 - INFO: - Epoch: 090, Train Loss: 0.419124, Val Loss: 0.418905, Test Loss: 0.895671,  Val Acc:  0.800000, Test Acc:  0.635000
+2025-10-10 - INFO: - Epoch: 091, Train Loss: 0.396130, Val Loss: 0.473327, Test Loss: 0.747377,  Val Acc:  0.710000, Test Acc:  0.660000
+2025-10-10 - INFO: - Epoch: 092, Train Loss: 0.386620, Val Loss: 0.432712, Test Loss: 0.904943,  Val Acc:  0.770000, Test Acc:  0.665000
+2025-10-10 - INFO: - Epoch: 093, Train Loss: 0.422545, Val Loss: 0.487544, Test Loss: 2.880581,  Val Acc:  0.770000, Test Acc:  0.695000
+2025-10-10 - INFO: - Epoch: 094, Train Loss: 0.437365, Val Loss: 0.390377, Test Loss: 0.729046,  Val Acc:  0.780000, Test Acc:  0.720000
+2025-10-10 - INFO: - Epoch: 095, Train Loss: 0.418408, Val Loss: 0.501968, Test Loss: 0.870897,  Val Acc:  0.780000, Test Acc:  0.715000
+2025-10-10 - INFO: - Epoch: 096, Train Loss: 0.462818, Val Loss: 0.619454, Test Loss: 0.925142,  Val Acc:  0.760000, Test Acc:  0.690000
+2025-10-10 - INFO: - Epoch: 097, Train Loss: 0.424668, Val Loss: 0.434442, Test Loss: 0.703739,  Val Acc:  0.770000, Test Acc:  0.705000
+2025-10-10 - INFO: - Epoch: 098, Train Loss: 0.438497, Val Loss: 0.435641, Test Loss: 0.658467,  Val Acc:  0.760000, Test Acc:  0.670000
+2025-10-10 - INFO: - Epoch: 099, Train Loss: 0.412818, Val Loss: 0.555696, Test Loss: 0.947456,  Val Acc:  0.750000, Test Acc:  0.675000
