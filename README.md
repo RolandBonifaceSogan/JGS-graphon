@@ -133,6 +133,7 @@ If you use this code or the JGS estimator in your work, please cite:
   booktitle={Proceedings of the International Conference on Artificial Intelligence and Statistics (AISTATS)},
   year={2026}
 }
+```
 
 
 
